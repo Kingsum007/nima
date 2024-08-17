@@ -79,4 +79,7 @@ class AssetsController extends Controller
         $asset->delete();
         return redirect()->back();
     }
-}
+    public function test()
+{
+    dd("Hello");
+}}
